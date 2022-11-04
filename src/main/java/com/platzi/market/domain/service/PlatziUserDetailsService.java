@@ -14,6 +14,6 @@ public class PlatziUserDetailsService implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return new User("paul", "kometin", new ArrayList<>());
+        return new User("paul", "{noop}covarrubias", new ArrayList<>());
     }
 }
